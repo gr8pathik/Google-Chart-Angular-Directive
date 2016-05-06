@@ -1,0 +1,144 @@
+[
+   {
+      "chartType": "GeoChart",
+      "chartData": [
+         [
+            "Locale",
+            "Count",
+            "Percent"
+         ],
+         [
+            "Germany",
+            22,
+            23
+         ],
+         [
+            "United States",
+            34,
+            11
+         ],
+         [
+            "Brazil",
+            42,
+            11
+         ],
+         [
+            "Canada",
+            57,
+            32
+         ],
+         [
+            "France",
+            6,
+            9
+         ],
+         [
+            "RU",
+            72,
+            3
+         ]
+      ],
+      "chartOptions": {
+         "height": 300,
+         "backgroundColor": "#eee",
+         "chartTitle": "World Statistics",
+         "legend": "none"
+      }
+   },
+   {
+      "chartType": "GeoChart",
+      "chartData": [
+         [
+            "State",
+            "Data"
+         ],
+         [
+            "Alabama",
+            0
+         ],
+         [
+            "Alaska",
+            1
+         ],
+         [
+            "American Samoa",
+            2
+         ],
+         [
+            "Arizona",
+            3
+         ],
+         [
+            "Arkansas",
+            4
+         ],
+         [
+            "California",
+            5
+         ],
+         [
+            "Colorado",
+            6
+         ],
+         [
+            "Connecticut",
+            7
+         ],
+         [
+            "Delaware",
+            8
+         ],
+         [
+            "District of Columbia",
+            9
+         ]
+      ],
+      "chartOptions": {
+         "height": 300,
+         "region": "US",
+         "resolution": "provinces",
+         "backgroundColor": "#eee",
+         "chartTitle": "USA Statistics",
+         "animation": {
+            "duration": 1000,
+            "easing": "out"
+         }
+      }
+   },
+   {
+      "chartType": "GeoChart",
+      "chartData": [
+         [
+            "State",
+            "Data"
+         ],
+         [
+            "West Bengal",
+            5
+         ],
+         [
+            "Gujarat",
+            9
+         ],
+         [
+            "Maharashtra",
+            3
+         ],
+         [
+            "Bihar",
+            0
+         ],
+         [
+            "Karnataka",
+            2
+         ]
+      ],
+      "chartOptions": {
+         "height": 300,
+         "region": "IN",
+         "resolution": "provinces",
+         "backgroundColor": "#eee",
+         "chartTitle": "INDIA Statistics"
+      }
+   }
+]
